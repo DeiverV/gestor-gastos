@@ -62,3 +62,13 @@
 
 - Si usas lector de pantalla, navega por encabezados (`H1`, `H2`, etc.) para moverte rápidamente entre secciones.
 - Usa la tecla `Tab` para moverte entre campos y botones, y `Enter` o `Espacio` para activar acciones.
+
+## Pruebas
+
+El proyecto cuenta con validacion con puntaje 100 en todos los aspectos de Lighthouse y sin errores en WAVE
+
+<img width="1182" height="842" alt="image" src="https://github.com/user-attachments/assets/b0ceeb68-f75c-4842-832a-89e4967caba7" />
+<img width="367" height="705" alt="image" src="https://github.com/user-attachments/assets/297ea214-dfb8-4310-8c73-0f689f679e5b" />
+
+
+
