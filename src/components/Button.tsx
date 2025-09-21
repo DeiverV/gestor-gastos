@@ -10,10 +10,10 @@ export const CustomButton = ({
   ...rest
 }: Props) => {
   const variants = {
-    warning: "bg-yellow-600",
-    danger: "bg-red-600",
-    success: "bg-green-600",
-    normal: "bg-gray-600",
+    warning: "bg-yellow-700",
+    danger: "bg-red-700",
+    success: "bg-green-700",
+    normal: "bg-gray-700",
   };
 
   return (
