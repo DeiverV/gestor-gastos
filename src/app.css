@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Righteous";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/righteous/v18/1cXxaUPXBpj2rGoU7C9WiHGF.woff2)
+    format("woff2");
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  background-color: #065084;
+  @media (prefers-color-scheme: dark) {
+    color-scheme: dark;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  * {
+    font-family: var(--font-sans);
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  h5 {
+    font-size: 18px;
+  }
+
+  h6 {
+    font-size: 16px;
+  }
+
+  p,
+  span,
+  div {
+    font-size: 14px;
+  }
+
+  small {
+    font-size: 10px;
+    display: inline-block;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar:hover {
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: none;
+  background-color: white;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  outline: 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
